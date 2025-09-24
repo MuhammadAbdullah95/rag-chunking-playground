@@ -1,0 +1,20 @@
+[project]
+name = "rag-chunking-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "docx>=0.2.4",
+    "docx2txt>=0.9",
+    "google-genai>=1.38.0",
+    "matplotlib>=3.10.6",
+    "nltk>=3.9.1",
+    "pandas>=2.3.2",
+    "plotly>=6.3.0",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.1.1",
+    "sentence-transformers>=5.1.1",
+    "streamlit>=1.50.0",
+    "tiktoken>=0.11.0",
+]
